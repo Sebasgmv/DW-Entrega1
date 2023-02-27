@@ -1,0 +1,54 @@
+@startuml
+class org.example.persistencia.model.Person {
+- Long id
+- String firstName
+- String lastName
+- String email
++ Long getId()
++ void setId(Long)
++ String getFirstName()
++ void setFirstName(String)
++ String getLastName()
++ void setLastName(String)
++ String getEmail()
++ void setEmail(String)
+}
+class org.example.persistencia.service.PersonService {
+- PersonRepository personRepository
++ List<Person> listarPersonas()
++ Person recuperarPersona(Long)
++ void guardarPersona(Person)
++ List<Person> buscarPorApellido(String)
+}
+class org.example.persistencia.controller.PersonController {
+~ Logger log
+- PersonService personService
++ String listarPersonas(Model)
+~ String verPersona(Model,Long)
++ String formularioEditarPersona(Model,Long)
++ String guardarPersona(Person,BindingResult,Model)
++ String listPersons(String,Model)
+}
+interface org.example.persistencia.repository.PersonRepository {
+~ List<Person> findAllByLastName(String)
+~ List<Person> findAllByLastNameStartingWith(String)
+~ List<Person> findAllByLastNameStartingWithIgnoreCase(String)
+~ List<Person> findPersonsByLastNameStartingWith(String)
+~ List<Person> findPersonsByLastNameStartingWithCaseInsensitive(String)
+}
+class org.example.persistencia.init.DBInitializer {
+- PersonRepository personRepository
++ void run(String)
+}
+class org.example.persistencia.PersistenciaApplication {
++ {static} void main(String[])
+}
+class org.example.persistencia.exceptions.MyCustomErrorController {
++ ModelAndView handleNotFound(Model,NoSuchElementException)
++ ModelAndView handleErrorNoParam(Model,MissingServletRequestParameterException)
+}
+
+
+org.springframework.data.jpa.repository.JpaRepository <|-- org.example.persistencia.repository.PersonRepository
+org.springframework.boot.CommandLineRunner <|.. org.example.persistencia.init.DBInitializer
+@enduml
