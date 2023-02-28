@@ -10,8 +10,8 @@ import java.util.UUID;
 public class Conductor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "id", nullable = false)
-//    @JdbcTypeCode(SqlTypes.INTEGER)
+    @Column(name = "id", nullable = false)
+    @JdbcTypeCode(SqlTypes.INTEGER)
     private Long id;
     private String nombre;
     private String cedula;
