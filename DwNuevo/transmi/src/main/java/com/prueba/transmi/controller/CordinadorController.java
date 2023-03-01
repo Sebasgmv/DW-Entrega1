@@ -23,15 +23,22 @@ public class CordinadorController {
     private CoordiService coordiService;
 
     @GetMapping("/list")
-    public String listarPersonas(Model model) {
+    public String listarConductores(Model model) {
         List<Conductor> conductores = coordiService.listarConductores();
         model.addAttribute("conductores", conductores);
         return "conductor-list";
     }
 
+    @GetMapping("/delete/{id}")
+    public String borrarConductor(Model model, @PathVariable Long id) {
+        Conductor c = coordiService.borrarConductor(id);
+        model.delete("conductor", c);
+        return "conductor-list";
+    }
+
     @GetMapping("/edit-form/{id}")
     public String formularioEditarPersona(Model model, @PathVariable Long id) {
-        Conductor c = coordiService.recuperarPersona(id);
+        Conductor c = coordiService.recuperarConductor(id);
         model.addAttribute("conductor", c);
         return "conductor-edit";
     }
@@ -44,28 +51,35 @@ public class CordinadorController {
             conductores = coordiService.listarConductores();
         } else {
             log.info("Buscando personas cuyo apellido comienza con {}", searchText);
-            conductores = coordiService.buscarPorApellido(searchText);
+            conductores = coordiService.buscarPorNombre(searchText);
         }
         model.addAttribute("conductores", conductores);
         return "conductor-search";
     }
 
     @PostMapping(value = "/save")
-    public String guardarPersona(Conductor conductor, BindingResult result, Model model) {
+    public String guardarConductor(Conductor conductor, BindingResult result, Model model) {
         if (result.hasErrors()) {
             return "conductor-edit";
         }
-        coordiService.guardarPersona(conductor);
+        coordiService.guardarConductor(conductor);
         return "redirect:/conductor/list";
     }
 
-    @GetMapping("/view/{idPersona}")
-    String verPersona(Model model, @PathVariable("idPersona") Long id) {
-        Conductor conductor = coordiService.recuperarPersona(id);
+    @GetMapping("/view/{idConductor}")
+    String verConductor(Model model, @PathVariable("idConductor") Long id) {
+        Conductor conductor = coordiService.recuperarConductor(id);
         model.addAttribute("conductor", conductor);
         return "conductor-view";
     }
 
+    /* listar buses */
+    @GetMapping("/list")
+    public String listarBuses(Model model) {
+        List<Bus> buses = coordiService.listarBuses();
+        model.addAttribute("buses", buses);
+        return "bus-list";
+    }
 
 
 
