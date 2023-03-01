@@ -1,11 +1,26 @@
 package com.proyecto.transmi.model;
 
-import java.util.UUID;
+import jakarta.persistence.*;
 
+import java.util.UUID;
+@Entity
 public class Ruta {
-    private Long uuid;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false)
+    private Long id;
+
     private String codigo;
-    private Estacion estaciones[];
+//    private Estacion estaciones[];
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public Ruta() {
     }
 }
