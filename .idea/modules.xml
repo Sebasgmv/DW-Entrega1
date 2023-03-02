@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DW-El-Team-de-Shakira-.iml" filepath="$PROJECT_DIR$/.idea/DW-El-Team-de-Shakira-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/persistencia/persistencia.iml" filepath="$PROJECT_DIR$/persistencia/persistencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DwNuevo/transmi/transmi.iml" filepath="$PROJECT_DIR$/DwNuevo/transmi/transmi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transmi/transmi (1) (com.proyecto).iml" filepath="$PROJECT_DIR$/transmi/transmi (1) (com.proyecto).iml" />
+    </modules>
+  </component>
+</project>

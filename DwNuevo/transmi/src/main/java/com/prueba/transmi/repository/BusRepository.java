@@ -1,5 +1,6 @@
 package com.prueba.transmi.repository;
 
+import com.prueba.transmi.model.Bus;
 import com.prueba.transmi.model.Conductor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

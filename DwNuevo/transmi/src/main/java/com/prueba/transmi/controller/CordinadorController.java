@@ -1,5 +1,6 @@
 package com.prueba.transmi.controller;
 
+import com.prueba.transmi.model.Bus;
 import com.prueba.transmi.model.Conductor;
 import com.prueba.transmi.repository.ConductorRepository;
 import com.prueba.transmi.service.CoordiService;
@@ -29,12 +30,12 @@ public class CordinadorController {
         return "conductor-list";
     }
 
-    @GetMapping("/delete/{id}")
-    public String borrarConductor(Model model, @PathVariable Long id) {
-        Conductor c = coordiService.borrarConductor(id);
-        model.delete("conductor", c);
-        return "conductor-list";
-    }
+//    @GetMapping("/delete/{id}")
+//    public String borrarConductor(Model model, @PathVariable Long id) {
+//        Conductor c = coordiService.borrarConductor(id);
+//        model.delete("conductor", c);
+//        return "conductor-list";
+//    }
 
     @GetMapping("/edit-form/{id}")
     public String formularioEditarPersona(Model model, @PathVariable Long id) {

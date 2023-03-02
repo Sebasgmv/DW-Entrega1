@@ -13,25 +13,26 @@ import java.util.Map;
 
 @Component
 public class DataBase implements ApplicationRunner {
-    private Map<Integer, Conductor> dataConductores = new HashMap<>();
+//    @Autowired
+//    ConductorRepository conductorRepository;
+    @Override
+    public void run(ApplicationArguments args) throws Exception {
+//        conductorRepository.save(new Conductor("Dario", "123", "300", "Calle 1"));
+
+//        Map<Integer, Conductor> dataConductores = new HashMap<>();
 
 //    public DataBase(){
 //        dataConductores.put(1, new Conductor("Dario", "123", "300", "Calle 1"));
 //        dataConductores.put(2, new Conductor("Dario2", "123", "300", "Calle 1"));
 //        dataConductores.put(3, new Conductor("Dario3", "123", "300", "Calle 1"));
 //    }
-    Conductor findById(int id){
-        return dataConductores.get(id);
-    }
-    Collection<Conductor> findAll(){
-        return dataConductores.values();
-    }
+//        Conductor findById(int id){
+//            return dataConductores.get(id);
+//        }
+//        Collection<Conductor> findAll(){
+//            return dataConductores.values();
+//        }
 
-    @Autowired
-    ConductorRepository conductorRepository;
-    @Override
-    public void run(ApplicationArguments args) throws Exception {
-        conductorRepository.save(new Conductor("Dario", "123", "300", "Calle 1"));
 
     }
 }
