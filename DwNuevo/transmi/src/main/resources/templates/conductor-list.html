@@ -8,7 +8,6 @@
 <body>
 
 <h1>Conductores</h1>
-<a th:href="@{/conductor/search}">Buscar</a>
 
 <table class="conductor-list">
     <thead>
@@ -33,9 +32,6 @@
         </td>
         <td>
             <a th:href="@{/conductor/edit-form/{id}(id=${c.id})}">Editar</a>
-        </td>
-        <td>
-            <a th:href="@{/conductor/delete/{id}(id=${c.id})}">Borrar</a>
         </td>
     </tr>
     </tbody>

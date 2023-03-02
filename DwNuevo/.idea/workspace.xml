@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c2db7eb-90ec-4f29-937a-7b83380c4b17" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/transmi/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/TransmiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/TransmiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/basededatos/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/basededatos/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/controller/CordinadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/controller/CordinadorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Conductor.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Conductor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Coordinador.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Coordinador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Estacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Estacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Horario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Pasajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Pasajero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Ruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Trabajo.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Trabajo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/repository/ConductorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/java/com/prueba/transmi/repository/ConductorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transmi/src/test/java/com/prueba/transmi/TransmiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/transmi/src/test/java/com/prueba/transmi/TransmiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/DiagramaUML.puml" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/DiagramaUML.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/PersistenciaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/PersistenciaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/exceptions/MyCustomErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/exceptions/MyCustomErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/init/DBInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/init/DBInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/repository/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/java/org/example/persistencia/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/resources/static/estilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/resources/static/estilo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/resources/templates/person-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/resources/templates/person-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/resources/templates/person-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/resources/templates/person-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/resources/templates/person-search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/resources/templates/person-search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/main/resources/templates/person-view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/main/resources/templates/person-view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../persistencia/src/test/java/org/example/persistencia/PersistenciaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../persistencia/src/test/java/org/example/persistencia/PersistenciaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/TransmiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/TransmiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/basededatos/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/basededatos/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/controller/CordinadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/controller/CordinadorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Conductor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Conductor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Coordinador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Coordinador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Estacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Estacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Horario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Horario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Pasajero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Pasajero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Ruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Trabajo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Trabajo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/repository/ConductorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/java/com/proyecto/transmi/repository/ConductorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/main/resources/static/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/main/resources/static/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../transmi/src/test/java/com/proyecto/transmi/TransmiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../transmi/src/test/java/com/proyecto/transmi/TransmiApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MOZzTb8Bbe5WqmII6Ixy2F8WjF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/paval/Documents/GitHub/web/DW-El-Team-de-Shakira-/DwNuevo/transmi",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TransmiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="transmi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.prueba.transmi.TransmiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c2db7eb-90ec-4f29-937a-7b83380c4b17" name="Changes" comment="" />
+      <created>1677640851570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677640851570</updated>
+      <workItem from="1677640852914" duration="73000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
