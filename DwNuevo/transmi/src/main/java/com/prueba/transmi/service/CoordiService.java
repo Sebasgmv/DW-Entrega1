@@ -17,26 +17,4 @@ public class CoordiService {
         return conductorRepository.findAll();
     }
 
-    public Conductor recuperarConductor(Long id) {
-        return conductorRepository.findById(id).orElseThrow();
-    }
-
-    public void guardarConductor(Conductor conductor) {
-        conductorRepository.save(conductor);
-    }
-
-    public void borrarConductor(Long id) {
-        Conductor conductor = conductorRepository.findById(id).orElseThrow();
-        conductorRepository.delete(conductor);
-    }
-
-    public List<Conductor> buscarPorNombre(String textoBusqueda) {
-        return conductorRepository.findPersonsByNameStartingWith(textoBusqueda);
-    }
-
-    /*listar buses*/
-    public List<Bus> listarBuses() {
-        return BusRepository.findAll();
-    }
-
 }

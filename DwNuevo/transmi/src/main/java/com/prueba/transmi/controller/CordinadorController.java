@@ -18,7 +18,6 @@ import java.util.List;
 @RequestMapping("/cordinador")
 public class CordinadorController {
 
-    Logger log = LoggerFactory.getLogger(getClass());
     @Autowired
     private CoordiService coordiService;
 
@@ -28,59 +27,6 @@ public class CordinadorController {
         model.addAttribute("conductores", conductores);
         return "conductor-list";
     }
-
-    @GetMapping("/delete/{id}")
-    public String borrarConductor(Model model, @PathVariable Long id) {
-        Conductor c = coordiService.borrarConductor(id);
-        model.delete("conductor", c);
-        return "conductor-list";
-    }
-
-    @GetMapping("/edit-form/{id}")
-    public String formularioEditarPersona(Model model, @PathVariable Long id) {
-        Conductor c = coordiService.recuperarConductor(id);
-        model.addAttribute("conductor", c);
-        return "conductor-edit";
-    }
-
-    @GetMapping("/search")
-    public String listPersons(@RequestParam(required = false) String searchText, Model model) {
-        List<Conductor> conductores;
-        if (searchText == null || searchText.trim().equals("")) {
-            log.info("No hay texto de búsqueda. Retornando todo");
-            conductores = coordiService.listarConductores();
-        } else {
-            log.info("Buscando personas cuyo apellido comienza con {}", searchText);
-            conductores = coordiService.buscarPorNombre(searchText);
-        }
-        model.addAttribute("conductores", conductores);
-        return "conductor-search";
-    }
-
-    @PostMapping(value = "/save")
-    public String guardarConductor(Conductor conductor, BindingResult result, Model model) {
-        if (result.hasErrors()) {
-            return "conductor-edit";
-        }
-        coordiService.guardarConductor(conductor);
-        return "redirect:/conductor/list";
-    }
-
-    @GetMapping("/view/{idConductor}")
-    String verConductor(Model model, @PathVariable("idConductor") Long id) {
-        Conductor conductor = coordiService.recuperarConductor(id);
-        model.addAttribute("conductor", conductor);
-        return "conductor-view";
-    }
-
-    /* listar buses */
-    @GetMapping("/list")
-    public String listarBuses(Model model) {
-        List<Bus> buses = coordiService.listarBuses();
-        model.addAttribute("buses", buses);
-        return "bus-list";
-    }
-
 
 
 }

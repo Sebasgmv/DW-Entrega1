@@ -10,8 +10,5 @@ import java.util.List;
 
 @Repository
 public interface ConductorRepository extends JpaRepository<Conductor, Long> {
-    List<Conductor> findAllByNameStartingWith(String text);
 
-    @Query("SELECT c FROM Conductor c WHERE c.nombre LIKE concat(:text, '%')")
-    List<Conductor> findPersonsByNameStartingWith(@Param("text") String text);
 }
