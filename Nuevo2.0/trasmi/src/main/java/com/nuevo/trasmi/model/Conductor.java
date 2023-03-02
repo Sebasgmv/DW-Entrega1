@@ -1,17 +1,14 @@
-package com.proyecto.transmi.model;
+package com.nuevo.trasmi.model;
 
-import jakarta.persistence.*;
-import org.hibernate.annotations.JdbcTypeCode;
-import org.hibernate.type.SqlTypes;
 
-import java.util.UUID;
+import javax.persistence.*;
+
 @Entity
 @Table(name = "conductores")
 public class Conductor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-//    @Column(name = "id", nullable = false)
-//    @JdbcTypeCode(SqlTypes.INTEGER)
+    @Column(name = "id", nullable = false)
     private Long id;
     private String nombre;
     private String cedula;
